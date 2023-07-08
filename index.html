@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet">
+  <style type="text/css">
+    html,
+    body,
+    header,
+    .view {
+      height: 100%;
+    }
+
+    /* Carousel*/
+    .carousel,
+    .carousel-item,
+    .carousel-item.active {
+      height: 100%;
+    }
+
+    .carousel-inner {
+      height: 100%;
+    }
+
+    .img-container {
+      width: 100%;
+      margin: auto;
+    }
+
+    .image {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin: auto;
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+      .navbar:not(.top-nav-collapse) {
+        background: #1C2331 !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+
+      <!-- Brand -->
+      <a class="navbar-brand" href="https://sidharth.com/docs/jquery/" target="_blank">
+        <strong>Sidharth</strong>
+      </a>
+
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Left -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://MDBootstrap.com/docs/jquery/" target="_blank">About</a>
+          </li>
+        </ul>
+
+        <!-- Right -->
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a href="https://www.facebook.com/sidharth" class="nav-link" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://twitter.com/sidharth" class="nav-link" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://github.com/sidharth/bootstrap-material-design"
+              class="nav-link border border-light rounded waves-effect waves-light" target="_blank">
+              <i class="fab fa-github mr-2"></i>GitHub
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- Navbar -->
+  <!--Carousel Wrapper-->
+  <div id="carousel-example-1z" class="carousel slide carousel-fade">
+
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <div class="view">
+          <video class="video-intro" autoplay loop muted>
+            <source src="./WhatsApp Video 2023-07-07 at 9.13.22 PM.mp4" type="video/mp4" />
+          </video>
+
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center text-center">
+
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong>Sidharth</strong>
+              </h1>
+              <div class="img-container">
+                <img src="/sidharth.jpg" class="image" alt="">
+              </div>
+
+              <a href="#" onclick="playAudio()" class="btn btn-outline-white btn-lg">Something Amazing
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+
+  <main>
+    <div class="container">
+      <section class="mt-5 wow fadeIn">
+        <div class="row">
+          <div class="col-md-6 mb-4">
+
+            <img src="https://MDBootstrap.com/img/Marketing/mdb-press-pack/mdb-main.jpg"
+              class="img-fluid z-depth-1-half" alt="">
+
+          </div>
+          <div class="col-md-6 mb-4">
+
+            <h3 class="h3 mb-3" id="about">About me</h3>
+            <p>I'am a <strong>Developer</strong>.
+            </p>
+            <p>Read more about me.</p>
+
+            <a target="_blank" href="https://sidharth.com/" class="btn btn-grey btn-md">Read more
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <hr class="my-5">
+
+
+
+    </div>
+  </main>
+
+  <!--Footer-->
+  <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+
+
+
+    <hr class="my-4">
+
+    <!-- Social icons -->
+    <div class="pb-4">
+      <a href="https://www.facebook.com/sidharth" target="_blank">
+        <i class="fab fa-facebook-f mr-3"></i>
+      </a>
+
+      <a href="https://twitter.com/sidharth" target="_blank">
+        <i class="fab fa-twitter mr-3"></i>
+      </a>
+
+      <a href="https://pinterest.com/sidharth" target="_blank">
+        <i class="fab fa-pinterest mr-3"></i>
+      </a>
+    </div>
+    <!-- Social icons -->
+
+    <!--Copyright-->
+    <div class="footer-copyright py-3">
+      © 2019 Copyright:
+      <a href="https://sidharth.com/" target="_blank"> sidhart.com </a>
+    </div>
+    <!--/.Copyright-->
+
+  </footer>
+  <!--/.Footer-->
+
+  <!-- SCRIPTS -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script type="text/javascript">
+    new WOW().init();
+  </script>
+
+  <script>
+    function playAudio() {
+      const audio = new Audio('/Lucifer ! I Am a Devil Of My Word ! Devil Of My World ! Theme ! English ! Remix (1).mp3');
+      audio.play();
+    }
+  </script>
+</body>
+
+</html>
